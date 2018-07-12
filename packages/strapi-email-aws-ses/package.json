@@ -1,0 +1,46 @@
+{
+  "name": "strapi-email-aws-ses",
+  "version": "3.0.0-alpha.12.6",
+  "description": "AWS SES provider for strapi email plugin",
+  "homepage": "http://strapi.io",
+  "keywords": [
+    "email",
+    "strapi",
+    "aws-ses"
+  ],
+  "directories": {
+    "lib": "./lib"
+  },
+  "main": "./lib",
+  "dependencies": {
+    "aws-sdk": "^2.263.1"
+  },
+  "strapi": {
+    "isProvider": true
+  },
+  "author": {
+    "email": "george.dulishkovich@vitd.co",
+    "name": "George Dulishkovich",
+    "organization": "VitaminD",
+    "url": "https://vitaminlondon.com"
+  },
+  "maintainers": [
+    {
+      "name": "Strapi team",
+      "email": "hi@strapi.io",
+      "url": "http://strapi.io"
+    }
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/strapi/strapi.git"
+  },
+  "bugs": {
+    "url": "https://github.com/strapi/strapi/issues"
+  },
+  "engines": {
+    "node": ">= 9.0.0",
+    "npm": ">= 5.3.0"
+  },
+  "license": "MIT"
+}
